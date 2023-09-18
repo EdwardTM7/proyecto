@@ -1,0 +1,32 @@
+.title-styling {
+        color: turquoise;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 2);
+    
+}
+
+.custom-container {
+        max-width: 450px;
+}
+
+.pointer{
+        cursor:pointer;
+}
+
+.active{
+        background: #cc1717;
+}
+
+.navigation .avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: 9px;
+    margin-right: 2px;    
+}
+
+.navigation .avatar img{
+    height: auto;    
+    width: 38px;
+}

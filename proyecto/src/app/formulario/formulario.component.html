@@ -1,0 +1,46 @@
+<!-- 
+
+    <div>
+      <form [formGroup]="formUser">
+
+      <input type="text" formControlName="usuario" placeholder="Usuario" class="form-control" #name >
+    <div class="alert alert-danger mt-2"[hidden]="usuario?.valid || usuario?.pristine" >
+        USUARIO OBLIGATORIO
+     </div>
+
+    <input type="text" formControlName="password" placeholder="Contraseña" class="form-control mt-2" #passw >
+    <div class="alert alert-danger mt-2"[hidden]="password?.valid || password?.pristine" >
+        CONTRASEÑA OBLIGATORIA
+     </div>
+
+
+
+<div class="center">
+    <button class="btn btn-primary ms-5 mt-2" (click)="mostrar_en_consola(name.value)" (click)="mostrar_en_consola_2(passw.value)" [disabled]="formUser.invalid">
+        INICIAR SESIÓN
+    </button>
+
+    <button class="btn btn-primary ms-4 mt-2">
+        ADMINISTRADOR
+    </button>
+</div>
+
+
+<div class="alert alert-danger mt-4" *ngIf="OpenAlert; else mensaje">
+    <p>Usuario o contraseña incorrecta</p>
+    <button class="btn btn-danger" (click)="OpenAlert = false">
+        x
+    </button>
+</div>
+
+<ng-template #mensaje>
+    <div>
+        <p class="style-text">¿Olvidaste tu contraseña?</p>
+    </div>
+</ng-template>
+
+</form>
+    </div>
+
+
+ -->
