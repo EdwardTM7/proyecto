@@ -19,7 +19,7 @@ function saveFollow(req, res){
         return res.status(200).send({ follow: followStored});
     })
     .catch((err) =>{
-        return res.status(500).send({ message: 'Error al guardar el seguimiento'});
+        return res.status(500).send({ message: 'Error al guardar el seguimiento git'});
     });
     }
 
